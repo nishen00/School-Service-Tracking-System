@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">vehicle</string>
+    <string name="title_activity_vehicle_map">Map</string>
+    <string name="pixalogy_tracker">Pixalogy Tracker</string>
+</resources>

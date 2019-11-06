@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customerActions"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1C2833 "
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pixalogy"
+            android:layout_margin="12dp"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pixalogy_tracker"
+            android:textColor="#F7F9F9"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_margin="12dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do your actions from here"
+        android:textColor="#99A3A4 "
+        android:textStyle="bold"
+        android:textSize="27dp"
+        android:layout_margin="20dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#566573  "
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Present Status :"
+            android:textColor="#99A3A4 "
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_margin="12dp"/>
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:id="@+id/presentsw"
+            android:background="@drawable/location"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#2980B9 "
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In Vehicle Status:"
+            android:textColor="#FDFEFE  "
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_margin="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inVehicleStatus"
+            android:textColor="#FDFEFE  "
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="In Vehicle Status:"
+            android:layout_margin="12dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
